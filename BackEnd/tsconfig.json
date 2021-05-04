@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "target": "ES2020",
+      "moduleResolution": "Node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "rootDir": "./src", 
+      "allowJs": true,
+      "checkJs": true,
+      "strict": true, 
+      // "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */,
+      // "experimentalDecorators": true,
+      // "maxNodeModuleJsDepth": 1,
+      // "allowSyntheticDefaultImports":true
+    },
+    "traceResolution": true
+}

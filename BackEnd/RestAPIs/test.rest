@@ -1,0 +1,25 @@
+GET https://localhost:3000
+###
+GET http://localhost:3000/posts
+###
+GET http://localhost:3000/touchUser/uid1
+###
+GET http://localhost:3000/test1
+###
+GET http://localhost:3000/GetTest1Doc
+###
+GET http://localhost:3000/GenerateToken
+###
+GET http://localhost:3000/VerifyToken
+###
+POST http://localhost:3000/touchUser/23g4k213456789
+Content-Type: application/json
+###
+
+GET http://localhost:3001/GenerateToken
+Content-Type: application/json
+
+{
+    "uid":"myuid12345",
+    "method":"f"
+}
